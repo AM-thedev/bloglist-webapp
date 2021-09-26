@@ -1,0 +1,11 @@
+POST http://localhost:3003/api/blogs HTTP/1.1
+content-type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImJsb2dnZXIiLCJpZCI6IjYxMTRhODJiMDE4MDRkMGFiMGJkYTgzNyIsImlhdCI6MTYyODc0NDMyNywiZXhwIjoxNjI4NzQ3OTI3fQ.-G4BAl_SLN0Qzy2Vpa4q1wvNCrbGrRcTfuaeVP4A0OE
+
+{
+    "title": "test blog",
+    "author": "the bloger",
+    "url": "https://www.blogger.com/blog/752",
+    "likes":63,
+    "userId": "6114a82b01804d0ab0bda837"
+}
